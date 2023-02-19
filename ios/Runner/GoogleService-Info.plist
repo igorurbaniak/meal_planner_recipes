@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>512204774121-nc4c2p1kl14ugc8n42va9gs16mmo5teu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.512204774121-nc4c2p1kl14ugc8n42va9gs16mmo5teu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAnp8rYLBIRz9C5fFcHdDIhdKQW4KnoTjg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>512204774121</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.igorurbaniak.mealPlannerRecipes</string>
+	<key>PROJECT_ID</key>
+	<string>meal-planner-app-v2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meal-planner-app-v2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:512204774121:ios:db66f433f50d538e15ae78</string>
+</dict>
+</plist>
