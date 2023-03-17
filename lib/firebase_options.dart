@@ -63,6 +63,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '512204774121',
     projectId: 'meal-planner-app-v2',
     storageBucket: 'meal-planner-app-v2.appspot.com',
+    androidClientId: '512204774121-0s9gcmc18tbgg3kai01av74bv1bon558.apps.googleusercontent.com',
     iosClientId: '512204774121-nc4c2p1kl14ugc8n42va9gs16mmo5teu.apps.googleusercontent.com',
     iosBundleId: 'com.igorurbaniak.mealPlannerRecipes',
   );

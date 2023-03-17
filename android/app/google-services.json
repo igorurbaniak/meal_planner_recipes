@@ -7,42 +7,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:512204774121:android:859b9e1d3bcdadb615ae78",
-        "android_client_info": {
-          "package_name": "com.igorurbaniak.meal_planner_recipe_for_life"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "512204774121-8e0nvm5790vtjljer0pfd1r3pr7p1q54.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCg9xybqp3b7z3XPXxzn6Zr7iE2aO2RGUI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "512204774121-8e0nvm5790vtjljer0pfd1r3pr7p1q54.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "512204774121-ippvokaccdtm5jd6f65gm029g0jvcba1.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.igorurbaniak.mealPlannerRecipeForLife"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:512204774121:android:bb145554b044c90e15ae78",
         "android_client_info": {
           "package_name": "com.igorurbaniak.meal_planner_recipes"
@@ -50,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "512204774121-8e0nvm5790vtjljer0pfd1r3pr7p1q54.apps.googleusercontent.com",
+          "client_id": "512204774121-28mrs0icluqn87e4r2mpu5g99dp2bje7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.igorurbaniak.meal_planner_recipes",
+            "certificate_hash": "8858aef1cf2ae644febb754beaccee49857d967f"
+          }
+        },
+        {
+          "client_id": "512204774121-6ngjhgitpnnp1jo9n993fsjfeknc0h3k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -63,14 +35,14 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "512204774121-8e0nvm5790vtjljer0pfd1r3pr7p1q54.apps.googleusercontent.com",
+              "client_id": "512204774121-6ngjhgitpnnp1jo9n993fsjfeknc0h3k.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "512204774121-ippvokaccdtm5jd6f65gm029g0jvcba1.apps.googleusercontent.com",
+              "client_id": "512204774121-007c61ruf153m2ejmg2o1d2qtp4f5bgk.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.igorurbaniak.mealPlannerRecipeForLife"
+                "bundle_id": "com.igorurbaniak.recipeApp"
               }
             }
           ]

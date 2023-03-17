@@ -1,9 +1,17 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:meal_planner_recipes/features/add_meal/widgets/add_meal_page_vol2.dart';
+import 'package:meal_planner_recipes/features/profile/profile_page.dart';
 import 'package:meal_planner_recipes/utils/extensions.dart';
 
 class BottomNavigatorBar extends StatefulWidget {
-  const BottomNavigatorBar({Key? key}) : super(key: key);
+  const BottomNavigatorBar({
+    Key? key,
+    // required this.user,
+  }) : super(key: key);
+
+  static Page page() => const MaterialPage<void>(child: BottomNavigatorBar());
+  // final User user;
 
   @override
   State<BottomNavigatorBar> createState() => _BottomNavigatorBarState();
@@ -49,11 +57,7 @@ class _BottomNavigatorBarState extends State<BottomNavigatorBar> {
             body: Builder(
               builder: (context) {
                 if (currentIndex == 0) {
-                  return const Scaffold(
-                    body: Center(
-                      child: Text('Add meal page'),
-                    ),
-                  );
+                  return const AddMealPageVol();
                 }
                 if (currentIndex == 1) {
                   return const Scaffold(
@@ -76,11 +80,9 @@ class _BottomNavigatorBarState extends State<BottomNavigatorBar> {
                     ),
                   );
                 }
-                return const Scaffold(
-                  body: Center(
-                    child: Text('Profile page'),
-                  ),
-                );
+                return const ProfilePage(
+                    // user: widget.user
+                    );
               },
             ),
           ),
